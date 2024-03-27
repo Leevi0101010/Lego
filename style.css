@@ -1,0 +1,67 @@
+html {
+  background: url(legobg.png) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: white;
+}
+div.container {
+  display: flex;
+  flex-direction: row;
+}
+
+.btn {
+  color: black;
+  border: 2px solid black;
+  background-color: brown;
+  border-radius: 4px;
+  width: 200px;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+.elementPalikka,
+.elementUkko,
+.elementHugePalikka {
+  margin: 10px;
+  border: 2px solid black;
+  box-shadow: 0 1px 2px black;
+  border-radius: 10px;
+  flex-direction: column;
+  width: 200px;
+  background-color: brown;
+}
+
+img {
+  width: 200px;
+  height: 200px;
+  max-width: fit-content;
+}
+
+h2 {
+  text-align: center;
+}
+
+.element {
+  flex-direction: column;
+  width: 200px;
+  border: 3px solid black;
+  border-radius: 10px;
+  background-color: brown;
+}
+
+h3 {
+  text-align: center;
+  font-size: medium;
+  font-style: normal;
+}
